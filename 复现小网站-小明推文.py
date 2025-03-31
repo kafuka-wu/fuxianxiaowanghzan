@@ -44,7 +44,7 @@ def predict(data):
     return prediction[0], probability
 
 # 读取静态图片并转换为 Base64 编码
-with open(r'C:\Users\86173\Desktop\微信图片_20250329192221.jpg', 'rb') as image_file:
+with open(r'微信图片_20250329192221.jpg', 'rb') as image_file:
     encoded_string = base64.b64encode(image_file.read()).decode('utf-8')
 
 # 设置静态图片背景
